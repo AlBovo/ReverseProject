@@ -9,7 +9,7 @@
 
 using namespace std;
 
-string trueSignature = "c0d1c3segr3t0_4bbast4n5a_lung0"; // stringa che contiene la firma corretta
+const string trueSignature = "c0d1c3segr3t0_4bbast4n5a_lung0"; // stringa che contiene la firma corretta
 
 bool checkSignature(string signature){
     if(signature.length() != trueSignature.length()){ // se la lunghezza della stringa è diversa da quella della chiave

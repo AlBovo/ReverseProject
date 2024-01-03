@@ -2,7 +2,7 @@
  * @file challenge.java
  * @author Alan Davide Bovo (alandavide.bovo.stud@ispascalcomandini.it)
  * @date 2024-01-03
- * Compile with: javac -g:none Problema2/challenge.java
+ * Compile with: javac Problema2/challenge.java
  * Run with: java Problema2.challenge
  */
 package Problema2;
