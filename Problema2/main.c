@@ -1,14 +1,14 @@
 /**
- * @file problema2.c
+ * @file main.c
  * @author Alan Davide Bovo (alandavide.bovo.stud@ispascalcomandini.it)
  * @date 2024-01-03
- * Compile with: gcc problema2.c -o problema2
+ * Compile with: gcc main.c -o main
  */
 #include<stdio.h>
 #include<string.h>
 #include<stdbool.h>
 
-// stringa decifrata: ReV3r53_1s_4w3s0m3
+// firma decifrata: ReV3r53_1s_4w3s0m3
 const char key[19] = "*7^tVr4FZ#7S4RFNd2\0"; // chiave di cifratura
 const char encrypted[19] = "xR\x08G$G\x07\x19kPhgCa5~\t\x01\0"; // stringa cifrata
 

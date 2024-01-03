@@ -1,8 +1,8 @@
 /**
- * @file problema1.cpp
+ * @file main.cpp
  * @author Alan Davide Bovo (alandavide.bovo.stud@ispascalcomandini.it)
  * @date 2024-01-03
- * Compile with: g++ problema1.cpp -o problema1
+ * Compile with: g++ main.cpp -o main
  */
 #include<string>
 #include<iostream>

@@ -1,8 +1,8 @@
 /**
- * @file problema1.c
+ * @file main.c
  * @author Alan Davide Bovo (alandavide.bovo.stud@ispascalcomandini.it)
  * @date 2024-01-03
- * Compile with: gcc problema1.c -o problema1
+ * Compile with: gcc main.c -o main
  */
 #include<stdio.h>
 #include<stdbool.h>
