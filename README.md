@@ -10,7 +10,7 @@ This repository contains all the reverse CTF-style challenges for a school proje
 
 Each **folder** contains the **src files** for the problem.
 In each src directory you can find how to **compile and run it**.<br>
-You can also download all the executables in the latest [release](https://github.com/AlBovo/ReverseProject/releases).
+You can also download all the executables in the [latest release](https://github.com/AlBovo/ReverseProject/releases/latest).
 
 ## Programming Languages
 <table>
