@@ -14,7 +14,7 @@ bool checkSignature(char *signature){
     if(strlen(signature) != strlen(trueSignature)){ // se la lunghezza della stringa inserita è diversa da quella corretta, ritorno false
         return false;
     }
-    for(int i=0; i<sizeof(signature); i++){
+    for(int i=0; i<strlen(signature); i++){
         if(signature[i] != trueSignature[i]){ // se un carattere della stringa inserita è diverso da quello corretto, ritorno false
             return false;
         }
