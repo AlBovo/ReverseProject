@@ -52,7 +52,8 @@ bool makeHttpRequest(const std::string& url, std::string& content)
 
 int main()
 {
-    std::string urlFlag = "https://www.antostarwars.xyz/flag.txt";
+    // Non abbiamo più un sito disponibile per questo compito (non voglio scrivere una gh-page)
+    std::string urlFlag = "https://github.com/AlBovo/ReverseProject/blob/main/Problema7/flag.txt";
     std::cout << "Vuoi leggere la flag? Inserisci l'url da cui prendere la flag\nSicuro di riuscirci?" << std::endl;
     
     std::string inputUrl;

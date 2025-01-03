@@ -3,6 +3,7 @@
  * @author Antonio De Rosa (antonio.derosa.stud@ispascalcomandini.it)
  * @date 2024-01-18
  */
+package Problema7;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,9 +11,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Main {
+public class challenge {
     public static void main(String[] args) throws IOException {
-        String urlFlag = "https://www.antostarwars.xyz/flag.txt";
+        // Non abbiamo più un sito disponibile per questo compito (non voglio scrivere una gh-page)
+        String urlFlag = "https://github.com/AlBovo/ReverseProject/blob/main/Problema7/flag.txt";
         URL url = new URL(urlFlag);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");

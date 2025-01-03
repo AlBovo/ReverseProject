@@ -5,12 +5,15 @@
  * Compile with: mcs -out:main.exe main.cs
  */
 
+using System;
+using System.IO;
 using System.Net;
 
 public class MainClass {
     static void Main(string[] args)
     {
-        string urlFlag = "https://www.antostarwars.xyz/flag.txt";
+        // Non abbiamo più un sito disponibile per questo compito (non voglio scrivere una gh-page)
+        string urlFlag = "https://github.com/AlBovo/ReverseProject/blob/main/Problema7/flag.txt";
         Console.WriteLine("Vuoi leggere la flag? Inserisci l'url da cui prendere la flag\nSicuro di riuscirci?");
         string inputUrl = Console.ReadLine();
 

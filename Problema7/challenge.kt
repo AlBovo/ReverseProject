@@ -12,7 +12,8 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 fun main(args: Array<String>) {
-    val urlFlag = "https://www.antostarwars.xyz/flag.txt"
+    // Non abbiamo più un sito disponibile per questo compito (non voglio scrivere una gh-page)
+    val urlFlag = "https://github.com/AlBovo/ReverseProject/blob/main/Problema7/flag.txt"
     val url = URL(urlFlag)
     val connection: HttpURLConnection = url.openConnection() as HttpURLConnection
     connection.requestMethod = "GET"
